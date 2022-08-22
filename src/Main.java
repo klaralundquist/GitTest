@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Testing feature");
+        String repeat = "";
+
+        for (int i = 0; i < 3; i++) {
+            String bark = "voff";
+            repeat += bark;
+        }
+
+        System.out.println(repeat.toUpperCase());
     }
 }
